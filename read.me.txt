@@ -1,0 +1,16 @@
+*****************************************************************
+Replication Material Guide
+Article: The Parable of Google Flu: Traps in Big Data Analysis
+Authors: David Lazer, Ryan Kennedy, Gary King, and Alessandro Vespignani
+Corresponding Author: David Lazer, d.lazer@neu.edu
+Replication Materials Author: Ryan Kennedy, rkennedy@uh.edu
+Date: February 29, 2014
+*****************************************************************
+
+Software: All analysis is conducted using either Stata (version 13, 64-bit) or R (version 3.0.1, 64-bit). For those using earlier versions of Stata, and for data permanence, ASCII format .csv files are also provided of all data files. If data is needed in a version different from those provided, please contact the authors.
+
+Structure of Replication Materials: All materials are stored according to their place either in the main manuscript or the supporting online materials (SM). So, for example, the file /SOM/SOM4/SFig17 includes the replication code and data for Fig S17 of the SM. Readers will sometimes find files that are not associated with any particular code. These files are either copies of the replication data files in a more permanent ASCII format (binary data files can sometimes become unreadable over time as software changes) or are the base files used to create the dataset (i.e. the raw download file). Where the code uses data from another file in the file structure, there should be references at the top indicating the location of those files.
+
+Recovering Values/Figures and Full Replication: The replication data sets include all the subsequently generated variables so the reader can easily recover reported values and figures with a single command. The reader can also use these to do their own summaries of these variables. For those interested in doing a full replication from base variables, there is a note at the top for the command that will drop all generated data, allowing the user to run the full code and calculate the subsequent variable values.
+
+Replication of Non-Data Figures: Some of the materials in the SM are screenshots from websites. Where this is the case, a link is usually provided to the website. Where the website has been subsequently taken down, we provide either a link to the Internet Archive link or a link to literature attesting to and recording its previous existence.
